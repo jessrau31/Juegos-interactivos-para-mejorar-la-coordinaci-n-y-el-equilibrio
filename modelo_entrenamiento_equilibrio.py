@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Cargar el conjunto de datos de equilibrio
-data = pd.read_csv("posturas_equilibrio.csv")
+data = pd.read_csv("posturas_equilibrio.csv", encoding='latin1')
 
 # Separar en variables de entrada y salida
 X = data[["tiempo_respuesta", "completado"]]

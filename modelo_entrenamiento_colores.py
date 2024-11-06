@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Cargar el conjunto de datos de colores
-data = pd.read_csv("coordinacion_colores.csv")
+data = pd.read_csv("coordinacion_colores.csv", encoding='latin1')
 
 # Separar en variables de entrada y salida
 X = data[["tiempo_respuesta", "aciertos"]]
