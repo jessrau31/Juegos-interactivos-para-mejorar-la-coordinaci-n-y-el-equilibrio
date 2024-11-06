@@ -5,9 +5,13 @@
 # python
 import subprocess
 
-# Entrenar el modelo
+# Entrenar el modelo del juego de colores
 print("Entrenando los modelos con el conjunto de datos...")
-subprocess.run(["python", "modelo_entrenamiento.py"])
+subprocess.run(["python, modelo_entrenamiento_colores.py"])
+
+# Entrenar el modelo del juego de equilibrio
+print("Entrenando los modelos con el conjunto de datos...")
+subprocess.run(["python, modelo_entrenamiento_equilibrio.py"])
 
 # Ejecutar el juego de coordinación de colores
 print("Ejecutando el juego de Coordinación Cognitiva con Colores...")
